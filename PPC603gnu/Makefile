@@ -31,7 +31,7 @@ else
 MODE_DIR := NonDebug
 endif
 OBJ_DIR := .
-WS_ROOT_DIR := C:/WindRiver/workspace
+WS_ROOT_DIR := C:/WindRiver/RobotBuilderWorkspace
 PRJ_ROOT_DIR := $(WS_ROOT_DIR)/Fluffy_Cody
 
 

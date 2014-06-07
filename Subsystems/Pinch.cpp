@@ -25,9 +25,9 @@ void Pinch::InitDefaultCommand() {
 // here. Call these from Commands.
 void Pinch::ClosePincher()
 {
-	relay->Set(Relay::kForward);
+	relay->Set(Relay::kReverse);
 }
 void Pinch::OpenPincher()
 {
-	relay->Set(Relay::kReverse);
+	relay->Set(Relay::kForward);
 }
