@@ -23,11 +23,11 @@ void Tilt::InitDefaultCommand() {
 	}
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
-void Tilt::TiltUp()
+void Tilt::TiltDown()
 {
 	relay->Set(Relay::kForward);
 }
-void Tilt::TiltDown()
+void Tilt::TiltUp()
 {
 	relay->Set(Relay::kReverse);
 }
